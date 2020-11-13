@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Comic Sans MS, cursive, sans-serif;
+    font-family: Comic Sans MS, serif, sans-serif;
 }
 
 .navigation {
@@ -151,9 +151,27 @@ form {
 	padding: 20px;
 }
 
+li {
+	text-align:left;
+}
+
+p {
+	text-align:left;
+}
+
+h3 {
+	text-align:left;
+}
+
 .paragraph {
-	margin-left: 70px;
-	margin-right: 70px;
+	padding: 0.7em;
+	text-align: center;
+	display: inline-block;
+	float:left;
+	width:86%;
+	margin-left: 7%; 
+	margin-right: 7%;
+	min-width: 100px;
 }
 
 footer {
