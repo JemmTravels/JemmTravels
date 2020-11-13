@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title> Home Page </title>
@@ -31,14 +31,16 @@
 
 	<p>This is home page. Place content here..</p>
 
-</body>
 
-<footer class="footer" >
-  <p>Author: JEMM Travels<br>
-	Ezekiel Chavez /Maria Rafael /Justice Chuong /Miguel Zapa<br>
-   <a href = "mailto: jemmtravels@gmail.com">jemmtravels@gmail.com</a><br>
-  Copyright © 2020
-  </p>
-</footer>
+	<br><hr class="line1">
+	<footer class="footer" >
+			<br>
+		<p>
+			Copyright © 2020 JEMM Travels<br>
+			Author: Team Justice League - Ezekiel Chavez / Maria Rafael / Justice Chuong / Miguel Zerpa<br>
+			<a href = "mailto: jemmtravels@gmail.com">jemmtravels@gmail.com</a><br><br><br>
+		</p>
+	</footer>
+</body>
 
 </html>
