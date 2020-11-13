@@ -110,10 +110,6 @@ body {
     text-align: center;
 }
 
-p {
-    margin: 2em;
-}
-
 
 h2 {
 	text-align: center;
@@ -163,6 +159,6 @@ form {
 footer {
      color: white;
 	 text-align: center;
-	 font-size: 11px;
-	 background-color: #5A5F62;
+	 font-size: 12px;
+	 background-color: #333;
 }
