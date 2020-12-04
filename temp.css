@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Comic Sans MS, serif, sans-serif;
+    font-family: "Comic Sans MS",serif,sans-serif;
 }
 
 .navigation {
@@ -158,8 +158,8 @@ body {
 }
 
 .travelslide {
-	width: 800;
-	height:600;
+	width: 800px;
+	height:600px;
 	max-width: 90%;
 	text-align: center;
 	margin-left: auto;
@@ -307,3 +307,54 @@ footer {
 	 font-size: 12px;
 	 background-color: #333;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.bodyi {
+  margin: 0;
+  font-family: Arial;
+}
+
+.headeri {
+  text-align: center;
+  padding: 32px;
+}
+
+.rowi {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.columni {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.columni img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .columni {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columni {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
