@@ -158,9 +158,8 @@ body {
 }
 
 .travelslide {
-	width: 800px;
-	height:600px;
-	max-width: 90%;
+	width: 90%;
+	max-width: 100%;
 	text-align: center;
 	margin-left: auto;
     margin-right: auto;
